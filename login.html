@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>LAB2</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+    <body>
+        <header>Welcome to INTERNET-PROGRAMMING MOVIE SITE</header>
+        <p>
+            <a href = "login.html" alt="error">로그인</a> | 회원가입
+        </p>
+        <form id = "login" action="#" method = "GET" autocomplete="on">
+            <p>
+                <label>이름:
+                <input name = "name" type = "text" autofocus required />
+                </label>
+            </p>
+            <p>
+                <label>생일:
+                <input name = "date" type="date" required/>
+                </label>
+            </p>
+            <p>성별:
+                <label><input name = "sex" type="radio" value = "man" /> 남성</label>
+                <label><input name = "sex" type="radio" value = "women" /> 여성</label>
+            </p>
+            <p>
+                <label>학년:
+                <input name = "grade" type="number" min = "1" max = "4" step = "1" />
+                </label>
+            </p>
+            <p>
+                <label>아이디:
+                    <input name = "id" type="text" required/>
+                </label>
+            </p>
+            <p>
+                <label>비밀번호:
+                    <input name = "password" type="password" required/>
+                </label>
+            </p>
+            <p>
+                <label>이메일:
+                    <input name = "email" type = "email" required/>
+                </label>
+            </p>
+            <p>
+                <label>보안 질문:
+                    <select name = "security_Question">
+                        <option selected>질문을 선택하세요</option>
+                        <option value="1">살던 곳은?</option>
+                        <option value="2">지금 사는 곳은?</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>답변:
+                    <input name = "security_Answer" type = "text" required />
+                </label>
+            </p>
+
+            <p>
+                <input type="submit" value = "Signup"/>
+                <input type="reset" value = "Cancel"/>
+            </p>
+        </form>
+    </body>
+</html>
