@@ -1,0 +1,42 @@
+/*
+LAB 2 external CSS style sheet
+
+*/
+h1                    { font-size: 23pt;
+                        text-align: center;}
+form                  { border: 3px solid black;
+                        width: 390px;
+                        padding: 20px;
+                        padding-top: 5px;
+                        padding-bottom: 0;
+                        margin: 0 auto;
+                        }
+body                  { font-family: arial, sans-serif;}
+
+label                 { width: 25%;}
+.row                  { display: flex;
+                        align-items: center;}
+  
+.login_signup         { text-align: center;}
+
+.input_               { width: 50%;
+                        margin: 0;
+                        }
+
+.green_button         { background-color: #66ff66;
+                        border: none;
+                        padding: 5px 10px 0;
+                        width: 70px;
+                        height: 25px;
+                        border-radius: 5px;
+                    }
+.red_button           { background-color: red;
+                        color: white;
+                        border: none;
+                        padding: 5px 10px 0;
+                        width: 70px;
+                        height: 25px;
+                        border-radius: 5px;
+                        margin-left: 5px;
+                        margin-top: 10px;
+}
